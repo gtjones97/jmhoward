@@ -3104,7 +3104,8 @@ section.parallax-section .section-title:before {
 	float: right;
 }
 .parallax-header span,
-.parallax-header a {
+.parallax-header a,
+.parallax-header p {
 	float: left;
 	margin-right: 20px;
 	text-transform: uppercase;
@@ -3112,6 +3113,7 @@ section.parallax-section .section-title:before {
 	font-size: 10px;
 	letter-spacing: 2px;
 }
+
 .content-nav {
 	float: left;
 	position: relative;
