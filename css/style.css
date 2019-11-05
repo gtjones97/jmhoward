@@ -3859,12 +3859,20 @@ section.parallax-section .section-title:before {
 	padding: 15px 30px;
 	background: #fff;
 	margin: 0 0 15px;
-	text-align: left;
+	text-align: center;
 	border: 1px solid #eee;
 }
+
+.accordion-inner > p {
+    text-align: left;
+}
+
 .accordion-inner.visible {
 	display: block;
     text-align: center;
+}
+.accordion-inner.visible > img {
+    display: flex;
 }
 
 .accordion-inner.visible > p {
