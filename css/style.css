@@ -228,8 +228,11 @@ blockquote p {
 }
 
 .respimg-small{
-    width: 50%;
+    width: 28%;
     height: auto;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 2rem;
 }
 
 .bg {
@@ -3861,6 +3864,11 @@ section.parallax-section .section-title:before {
 }
 .accordion-inner.visible {
 	display: block;
+    text-align: center;
+}
+
+.accordion-inner.visible > p {
+    text-align: left;
 }
 /*------ Video ------------------------------------------------*/
 
