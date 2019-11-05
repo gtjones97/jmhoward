@@ -226,6 +226,12 @@ blockquote p {
 	width: 100%;
 	height: auto;
 }
+
+.respimg-small{
+    width: 50%;
+    height: auto;
+}
+
 .bg {
 	position: absolute;
 	top: 0;
